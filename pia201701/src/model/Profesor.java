@@ -14,6 +14,9 @@ public class Profesor {
     private String nombre;
     private String apellido;
 
+    public Profesor() {
+    }
+
     /**
      *
      * @return
