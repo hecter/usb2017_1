@@ -15,7 +15,7 @@ public class Usuario {
     private String password;
 
     /**
-     *
+     * Crea una instacia de la clase usuario 
      */
     public Usuario() {
     }
