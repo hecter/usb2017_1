@@ -10,9 +10,13 @@ package model;
  * @author Admin
  */
 public class Usuario {
+
     private String usuario;
-    private String password; 
- 
+    private String password;
+
+    public Usuario() {
+    }
+
     public Usuario(String usuario, String password) {
         this.usuario = usuario;
         this.password = password;
@@ -33,6 +37,5 @@ public class Usuario {
     public void setUsuario(String usuario) {
         this.usuario = usuario;
     }
-    
-    
+
 }
