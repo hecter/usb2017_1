@@ -10,7 +10,6 @@ package model;
  * @author admin
  */
 public class Profesor {
-    String nombre;
-    String apellido;
-    
+    private String nombre;
+    private String apellido;
 }
