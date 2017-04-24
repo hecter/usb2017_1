@@ -11,8 +11,8 @@ package model;
  */
 public class Usuario {
     String usuario;
-    String password;
-
+    String password; 
+ 
     public Usuario(String usuario, String password) {
         this.usuario = usuario;
         this.password = password;
